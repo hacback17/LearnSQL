@@ -1,12 +1,14 @@
 -- Create DB
 -- CREATE DATABASE test;
 
+-- DDL (Data Definition Language) means you are defining data structures inside the database. It's used to create the database schema.
 -- Create a table named 'person'
 CREATE TABLE person (
 id BIGSERIAL NOT NULL PRIMARY KEY,
 name VARCHAR(100) NOT NULL,
 country VARCHAR(50) NOT NULL );
 
+-- DML (Data Manipulation Language) used to populate and manipulate database.
 -- Insert these values to the table
 INSERT INTO person (name, country) VALUES ('Bablu', 'India');
 INSERT INTO person (name, country) VALUES ('Ian', 'Portugal');
